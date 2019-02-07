@@ -1,0 +1,95 @@
+Script started on 2019-02-07 22:04:02+0530
+]0;s4d2@tpc-Veriton-Series: ~[01;32ms4d2@tpc-Veriton-Series[00m:[01;34m~[00m$ pe[Kwd
+/home/s4d2
+]0;s4d2@tpc-Veriton-Series: ~[01;32ms4d2@tpc-Veriton-Series[00m:[01;34m~[00m$ ls
+1st.txt  [0m[01;34mDocuments[0m  [01;34mMusic[0m     [01;34mPublic[0m     [01;34mVideos[0m
+[01;34mDesktop[0m  [01;34mDownloads[0m  [01;34mPictures[0m  [01;34mTemplates[0m
+]0;s4d2@tpc-Veriton-Series: ~[01;32ms4d2@tpc-Veriton-Series[00m:[01;34m~[00m$ ls -a
+[0m[01;34m.[0m              .bash_logout  [01;34mDesktop[0m    .ICEauthority  [01;34mPictures[0m  [01;34mTemplates[0m
+[01;34m..[0m             .bashrc       [01;34mDocuments[0m  [01;34m.local[0m         .profile  [01;34mVideos[0m
+1st.txt        [01;34m.cache[0m        [01;34mDownloads[0m  [01;34m.mozilla[0m       [01;34mPublic[0m
+.bash_history  [01;34m.config[0m       [01;34m.gnupg[0m     [01;34mMusic[0m          [01;34m.ssh[0m
+]0;s4d2@tpc-Veriton-Series: ~[01;32ms4d2@tpc-Veriton-Series[00m:[01;34m~[00m$ cd Desktop
+]0;s4d2@tpc-Veriton-Series: ~/Desktop[01;32ms4d2@tpc-Veriton-Series[00m:[01;34m~/Desktop[00m$ mkdir test
+]0;s4d2@tpc-Veriton-Series: ~/Desktop[01;32ms4d2@tpc-Veriton-Series[00m:[01;34m~/Desktop[00m$ rem[K[Kmdir test
+]0;s4d2@tpc-Veriton-Series: ~/Desktop[01;32ms4d2@tpc-Veriton-Series[00m:[01;34m~/Desktop[00m$ mkdir test2
+]0;s4d2@tpc-Veriton-Series: ~/Desktop[01;32ms4d2@tpc-Veriton-Series[00m:[01;34m~/Desktop[00m$ ls
+[0m[01;34mtest2[0m
+]0;s4d2@tpc-Veriton-Series: ~/Desktop[01;32ms4d2@tpc-Veriton-Series[00m:[01;34m~/Desktop[00m$ rmdir test2
+]0;s4d2@tpc-Veriton-Series: ~/Desktop[01;32ms4d2@tpc-Veriton-Series[00m:[01;34m~/Desktop[00m$ ls
+]0;s4d2@tpc-Veriton-Series: ~/Desktop[01;32ms4d2@tpc-Veriton-Series[00m:[01;34m~/Desktop[00m$ cd ..
+]0;s4d2@tpc-Veriton-Series: ~[01;32ms4d2@tpc-Veriton-Series[00m:[01;34m~[00m$ pwd
+/home/s4d2
+]0;s4d2@tpc-Veriton-Series: ~[01;32ms4d2@tpc-Veriton-Series[00m:[01;34m~[00m$ cd Documents
+]0;s4d2@tpc-Veriton-Series: ~/Documents[01;32ms4d2@tpc-Veriton-Series[00m:[01;34m~/Documents[00m$ mkdir test
+]0;s4d2@tpc-Veriton-Series: ~/Documents[01;32ms4d2@tpc-Veriton-Series[00m:[01;34m~/Documents[00m$ cd test
+]0;s4d2@tpc-Veriton-Series: ~/Documents/test[01;32ms4d2@tpc-Veriton-Series[00m:[01;34m~/Documents/test[00m$ mkdir test2
+]0;s4d2@tpc-Veriton-Series: ~/Documents/test[01;32ms4d2@tpc-Veriton-Series[00m:[01;34m~/Documents/test[00m$ cd ..
+]0;s4d2@tpc-Veriton-Series: ~/Documents[01;32ms4d2@tpc-Veriton-Series[00m:[01;34m~/Documents[00m$ rmdir test
+rmdir: failed to remove 'test': Directory not empty
+]0;s4d2@tpc-Veriton-Series: ~/Documents[01;32ms4d2@tpc-Veriton-Series[00m:[01;34m~/Documents[00m$ rm test
+rm: cannot remove 'test': Is a directory
+]0;s4d2@tpc-Veriton-Series: ~/Documents[01;32ms4d2@tpc-Veriton-Series[00m:[01;34m~/Documents[00m$ rm -r test
+]0;s4d2@tpc-Veriton-Series: ~/Documents[01;32ms4d2@tpc-Veriton-Series[00m:[01;34m~/Documents[00m$ ls
+]0;s4d2@tpc-Veriton-Series: ~/Documents[01;32ms4d2@tpc-Veriton-Series[00m:[01;34m~/Documents[00m$ touch tt
+]0;s4d2@tpc-Veriton-Series: ~/Documents[01;32ms4d2@tpc-Veriton-Series[00m:[01;34m~/Documents[00m$ ls
+tt
+]0;s4d2@tpc-Veriton-Series: ~/Documents[01;32ms4d2@tpc-Veriton-Series[00m:[01;34m~/Documents[00m$ rmdir tt
+rmdir: failed to remove 'tt': Not a directory
+]0;s4d2@tpc-Veriton-Series: ~/Documents[01;32ms4d2@tpc-Veriton-Series[00m:[01;34m~/Documents[00m$ rm -r tt
+]0;s4d2@tpc-Veriton-Series: ~/Documents[01;32ms4d2@tpc-Veriton-Series[00m:[01;34m~/Documents[00m$ mkdir test
+]0;s4d2@tpc-Veriton-Series: ~/Documents[01;32ms4d2@tpc-Veriton-Series[00m:[01;34m~/Documents[00m$ cp test/Desktop
+cp: missing destination file operand after 'test/Desktop'
+Try 'cp --help' for more information.
+]0;s4d2@tpc-Veriton-Series: ~/Documents[01;32ms4d2@tpc-Veriton-Series[00m:[01;34m~/Documents[00m$ cp test /Desktop
+cp: -r not specified; omitting directory 'test'
+]0;s4d2@tpc-Veriton-Series: ~/Documents[01;32ms4d2@tpc-Veriton-Series[00m:[01;34m~/Documents[00m$ cp test /home/s4D2/Desktop
+cp: -r not specified; omitting directory 'test'
+]0;s4d2@tpc-Veriton-Series: ~/Documents[01;32ms4d2@tpc-Veriton-Series[00m:[01;34m~/Documents[00m$ pwd
+/home/s4d2/Documents
+]0;s4d2@tpc-Veriton-Series: ~/Documents[01;32ms4d2@tpc-Veriton-Series[00m:[01;34m~/Documents[00m$ te[K[Kcp test /home/s4d2/Desl[Kktop
+cp: -r not specified; omitting directory 'test'
+]0;s4d2@tpc-Veriton-Series: ~/Documents[01;32ms4d2@tpc-Veriton-Series[00m:[01;34m~/Documents[00m$ cp test /home/s4d2/Desktop-[K -r
+]0;s4d2@tpc-Veriton-Series: ~/Documents[01;32ms4d2@tpc-Veriton-Series[00m:[01;34m~/Documents[00m$ cd ..
+]0;s4d2@tpc-Veriton-Series: ~[01;32ms4d2@tpc-Veriton-Series[00m:[01;34m~[00m$ ls[K[Kcd Desktop
+]0;s4d2@tpc-Veriton-Series: ~/Desktop[01;32ms4d2@tpc-Veriton-Series[00m:[01;34m~/Desktop[00m$ ls
+[0m[01;34mtest[0m
+]0;s4d2@tpc-Veriton-Series: ~/Desktop[01;32ms4d2@tpc-Veriton-Series[00m:[01;34m~/Desktop[00m$ rm -r test
+]0;s4d2@tpc-Veriton-Series: ~/Desktop[01;32ms4d2@tpc-Veriton-Series[00m:[01;34m~/Desktop[00m$ cd ..
+]0;s4d2@tpc-Veriton-Series: ~[01;32ms4d2@tpc-Veriton-Series[00m:[01;34m~[00m$ cd Documents
+]0;s4d2@tpc-Veriton-Series: ~/Documents[01;32ms4d2@tpc-Veriton-Series[00m:[01;34m~/Documents[00m$ ls
+[0m[01;34mtest[0m
+]0;s4d2@tpc-Veriton-Series: ~/Documents[01;32ms4d2@tpc-Veriton-Series[00m:[01;34m~/Documents[00m$ mv test new\
+> mv test new\[K
+mv: target 'new' is not a directory
+]0;s4d2@tpc-Veriton-Series: ~/Documents[01;32ms4d2@tpc-Veriton-Series[00m:[01;34m~/Documents[00m$ mv test newmv test new[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kmv test new
+]0;s4d2@tpc-Veriton-Series: ~/Documents[01;32ms4d2@tpc-Veriton-Series[00m:[01;34m~/Documents[00m$ ls
+[0m[01;34mnew[0m
+]0;s4d2@tpc-Veriton-Series: ~/Documents[01;32ms4d2@tpc-Veriton-Series[00m:[01;34m~/Documents[00m$ mv new /home/s4d2/Desktop -r
+mv: invalid option -- 'r'
+Try 'mv --help' for more information.
+]0;s4d2@tpc-Veriton-Series: ~/Documents[01;32ms4d2@tpc-Veriton-Series[00m:[01;34m~/Documents[00m$ mv new /home/s4d2/Desktop -r[K[K
+]0;s4d2@tpc-Veriton-Series: ~/Documents[01;32ms4d2@tpc-Veriton-Series[00m:[01;34m~/Documents[00m$ cd ..
+]0;s4d2@tpc-Veriton-Series: ~[01;32ms4d2@tpc-Veriton-Series[00m:[01;34m~[00m$ ls
+1st.txt  [0m[01;34mDocuments[0m  [01;34mMusic[0m     [01;34mPublic[0m     [01;34mVideos[0m
+[01;34mDesktop[0m  [01;34mDownloads[0m  [01;34mPictures[0m  [01;34mTemplates[0m
+]0;s4d2@tpc-Veriton-Series: ~[01;32ms4d2@tpc-Veriton-Series[00m:[01;34m~[00m$ cd DES[K[Kesktop
+]0;s4d2@tpc-Veriton-Series: ~/Desktop[01;32ms4d2@tpc-Veriton-Series[00m:[01;34m~/Desktop[00m$ ls
+[0m[01;34mnew[0m
+]0;s4d2@tpc-Veriton-Series: ~/Desktop[01;32ms4d2@tpc-Veriton-Series[00m:[01;34m~/Desktop[00m$ rmdir new
+]0;s4d2@tpc-Veriton-Series: ~/Desktop[01;32ms4d2@tpc-Veriton-Series[00m:[01;34m~/Desktop[00m$ ls
+]0;s4d2@tpc-Veriton-Series: ~/Desktop[01;32ms4d2@tpc-Veriton-Series[00m:[01;34m~/Desktop[00m$ cat> test.txt
+first attempt
+^Z
+[1]+  Stopped                 cat > test.txt
+]0;s4d2@tpc-Veriton-Series: ~/Desktop[01;32ms4d2@tpc-Veriton-Series[00m:[01;34m~/Desktop[00m$ cat test.txt
+first attempt
+]0;s4d2@tpc-Veriton-Series: ~/Desktop[01;32ms4d2@tpc-Veriton-Series[00m:[01;34m~/Desktop[00m$ rm -r test.txt
+]0;s4d2@tpc-Veriton-Series: ~/Desktop[01;32ms4d2@tpc-Veriton-Series[00m:[01;34m~/Desktop[00m$ cat> test2.txt
+1234    2 3 4 5 6 7 8 
+^Z
+[2]+  Stopped                 cat > test2.txt
+]0;s4d2@tpc-Veriton-Series: ~/Desktop[01;32ms4d2@tpc-Veriton-Series[00m:[01;34m~/Desktop[00m$ grep 8 test.txt
+grep: test.txt: No such file or directory
+]0;s4d2@tpc-Veriton-Series: ~/Desktop[01;32ms4d2@tpc-Veriton-Series[00m:[01;34m~/Desktop[00m$ grep 8 test.txt[C2.txt
+1 2 3 4 5 6 7 [01;31m[K8[m[K 
