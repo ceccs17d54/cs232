@@ -2,7 +2,7 @@
 
  - [x] Linux Commands
  - [ ] CGPA Task
- - [ ] Networking Task
+ - [x] Networking Task
  - [ ] SSH, Rsync, SCP
  - [ ] FTP
  - [x] Linux Installation
