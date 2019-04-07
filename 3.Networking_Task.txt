@@ -1,0 +1,64 @@
+Script started on 2019-04-01 09:59:56+0530
+]0;s4d2@tpc-Veriton-Series: ~@tpc-Veriton-Series $ su - tpc
+Password: 
+]0;tpc@tpc-Veriton-Series: ~tpc@tpc-Veriton-Series~ $ /sbin/ifconfig
+enp0s25: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.0.235  netmask 255.255.255.0  broadcast 192.168.0.255
+        inet6 fe80::3b09:db39:ce73:22b4  prefixlen 64  scopeid 0x20<link>
+        ether 10:78:d2:e0:a9:9b  txqueuelen 1000  (Ethernet)
+        RX packets 19882  bytes 4854905 (4.8 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 1867  bytes 230269 (230.2 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+        device interrupt 20  memory 0xfbbc0000-fbbe0000  
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 18406  bytes 1417323 (1.4 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 18406  bytes 1417323 (1.4 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+]0;tpc@tpc-Veriton-Series: ~tpc@tpc-Veriton-Series ~ /sbin/ifconfig -a
+enp0s25: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.0.235  netmask 255.255.255.0  broadcast 192.168.0.255
+        inet6 fe80::3b09:db39:ce73:22b4  prefixlen 64  scopeid 0x20<link>
+        ether 10:78:d2:e0:a9:9b  txqueuelen 1000  (Ethernet)
+        RX packets 19917  bytes 4857754 (4.8 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 1867  bytes 230269 (230.2 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+        device interrupt 20  memory 0xfbbc0000-fbbe0000  
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 18566  bytes 1429643 (1.4 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 18566  bytes 1429643 (1.4 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+]0;tpc@tpc-Veriton-Series: ~tpc@tpc-Veriton-Series~$ /sbin/ifconfig -aexitcd ifconfig[3Pifconfigcd /snap/core/4917/sbin[3P/snap/core/4917/sbincd /snap/core/4917/sbin[15Pifconfigcd ifconfig[7Pexit/sbin/ifconfig -a[K sud[K[K[K /sbin/ifconfig -a
+enp0s25
+[sudo] password for tpc: 
+enp0s25: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.0.235  netmask 255.255.255.0  broadcast 192.168.0.255
+        inet6 fe80::3b09:db39:ce73:22b4  prefixlen 64  scopeid 0x20<link>
+        ether 10:78:d2:e0:a9:9b  txqueuelen 1000  (Ethernet)
+        RX packets 20426  bytes 4912306 (4.9 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 1867  bytes 230269 (230.2 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+        device interrupt 20  memory 0xfbbc0000-fbbe0000  
+
+]0;tpc@tpc-Veriton-Series: ~tpc@tpc-Veriton-Series:~ $ sudo /sbin/ifconfig enp0s25 down
+]0;tpc@tpc-Veriton-Series: ~tpc@tpc-Veriton-Series $ sudo /sbin/ifconfig enp0s25 up
+]0;tpc@tpc-Veriton-Series: ~tpc@tpc-Veriton-Series:~$ exit
+logout
+]0;s4d2@tpc-Veriton-Series: ~s4d2@tpc-Veriton-Series:~$ exit
+exit
+
+Script done on 2019-04-01 10:03:08+0530
