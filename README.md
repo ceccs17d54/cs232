@@ -7,7 +7,7 @@
  - [ ] FTP
  - [x] Linux Installation
  - [ ] Setting up HTTP and FTP server
- - [ ] Package Management
+ - [x] Package Management
  - [ ] Perl
  - [ ] LAMP
  - [ ] Kernel Compilation
