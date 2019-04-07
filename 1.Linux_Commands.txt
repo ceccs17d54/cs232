@@ -92,4 +92,4 @@ first attempt
 ]0;s4d2@tpc-Veriton-Series: ~/Desktop[01;32ms4d2@tpc-Veriton-Series[00m:[01;34m~/Desktop[00m$ grep 8 test.txt
 grep: test.txt: No such file or directory
 ]0;s4d2@tpc-Veriton-Series: ~/Desktop[01;32ms4d2@tpc-Veriton-Series[00m:[01;34m~/Desktop[00m$ grep 8 test.txt[C2.txt
-1 2 3 4 5 6 7 [01;31m[K8[m[K 
+1 2 3 4 5 6 7 [01;31m[K8[m[K 
