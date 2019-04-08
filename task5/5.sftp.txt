@@ -1,0 +1,31 @@
+Script started on 2019-04-08 10:39:16+0530
+]0;vimal@vimal-Nitro-AN515-51: ~[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m~[00m$ sftp cs17d54@14.139.189.217
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d54@14.139.189.217's password: 
+Connected to 14.139.189.217.
+sftp> pwd
+Remote working directory: /home/cs17d54
+sftp> dir
+examples.desktop    task1               
+sftp> get task1
+Fetching /home/cs17d54/task1/ to task1
+Cannot download non-regular file: /home/cs17d54/task1/
+sftp> get -r task1
+Fetching /home/cs17d54/task1/ to task1
+Retrieving /home/cs17d54/task1
+/home/cs17d54/task1/1.familiarisation.txt       0%    0     0.0KB/s   --:-- ETA/home/cs17d54/task1/1.familiarisation.txt     100% 8101    27.0KB/s   00:00    
+sftp> put -r [7Gget -r task1[11G[3Ptask1[7Gdir[Kpwddirget task1[11G[3@-r task1[7Gput -r[K /home/vimal/Desktop/task8
+Uploading /home/vimal/Desktop/task8/ to /home/cs17d54/task8
+Entering /home/vimal/Desktop/task8/
+/home/vimal/Desktop/task8/packagemanagement.t   0%    0     0.0KB/s   --:-- ETA/home/vimal/Desktop/task8/packagemanagement.t 100%   13KB  39.0KB/s   00:00    
+sftp> dir
+examples.desktop    task1               task8               
+sftp> exit
+]0;vimal@vimal-Nitro-AN515-51: ~[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m~[00m$ exi[K[K[Kexit
+exit
+
+Script done on 2019-04-08 10:41:25+0530
