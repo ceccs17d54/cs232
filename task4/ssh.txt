@@ -1,0 +1,35 @@
+Script started on 2019-04-08 09:52:57+0530
+;vimal@vimal-Nitro-AN515-51: ~vimal@vimal-Nitro-AN515-51:~$ ssh cs17d54@14.139.189.217
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d54@14.139.189.217's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+23 packages can be updated.
+0 updates are security updates.
+
+*** System restart required ***
+Last login: Mon Apr  8 09:41:55 2019 from 137.97.76.35
+
+$ d pwd
+/home/cs17d54
+$ dir
+examples.desktop
+$ mkdir test
+$ dir
+examples.desktop  test
+$ rmdir test
+$ dir
+examples.desktop
+$ exit
+Connection to 14.139.189.217 closed.
+
+vimal@vimal-Nitro-AN515-51: ~vimal@vimal-Nitro-AN515-51~$ exit
+exit
+
+Script done on 2019-04-08 10:00:34+0530
