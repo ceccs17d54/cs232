@@ -3,7 +3,7 @@
  - [x] Linux Commands
  - [ ] CGPA Task
  - [x] Networking Task
- - [ ] SSH, Rsync, SCP
+ - [x] SSH, Rsync, SCP
  - [x] (S)FTP
  - [x] Linux Installation
  - [ ] Setting up HTTP and FTP server
