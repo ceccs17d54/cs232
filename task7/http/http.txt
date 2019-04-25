@@ -1,0 +1,77 @@
+Script started on 2019-04-25 10:57:36+0530
+]0;vimal@vimal-Nitro-AN515-51: ~[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m~[00m$ sudo apt-get install nginx
+[sudo] password for vimal: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 1%Reading state information... Done
+nginx is already the newest version (1.14.0-0ubuntu1.2).
+0 upgraded, 0 newly installed, 0 to remove and 58 not upgraded.
+]0;vimal@vimal-Nitro-AN515-51: ~[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m~[00m$ service nginx status
+[?1h=[0;1;32m●[0m nginx.service - A high performance web server and a reverse proxy server[m
+   Loaded: loaded (/lib/systemd/system/nginx.service; enabled; vendor preset: en[m
+   Active: [0;1;32mactive (running)[0m since Thu 2019-04-25 10:45:03 IST; 13min ago[m
+     Docs: man:nginx(8)[m
+  Process: 5877 ExecStart=/usr/sbin/nginx -g daemon on; master_process on; (code[m
+  Process: 5876 ExecStartPre=/usr/sbin/nginx -t -q -g daemon on; master_process [m
+ Main PID: 5878 (nginx)[m
+    Tasks: 5 (limit: 4915)[m
+   CGroup: /system.slice/nginx.service[m
+           ├─5878 nginx: master process /usr/sbin/nginx -g daemon on; master_pro[m
+           ├─5879 nginx: worker process[m
+           ├─5880 nginx: worker process[m
+           ├─5881 nginx: worker process[m
+           └─5882 nginx: worker process[m
+[m
+Apr 25 10:45:03 vimal-Nitro-AN515-51 systemd[1]: Starting A high performance web[m
+Apr 25 10:45:03 vimal-Nitro-AN515-51 systemd[1]: Started A high performance web [m
+[7mlines 1-17/17 (END)[27m[K[K[?1l>]0;vimal@vimal-Nitro-AN515-51: ~[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m~[00m$ sudo gedit /etc/nginx/sites-
+sites-available/ sites-enabled/   
+]0;vimal@vimal-Nitro-AN515-51: ~[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m~[00m$ sudo gedit /etc/nginx/sites-enabled/default 
+
+** (gedit:6276): [1;33mWARNING[0m **: [34m10:58:56.146[0m: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+]0;vimal@vimal-Nitro-AN515-51: ~[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m~[00m$ cd ..
+]0;vimal@vimal-Nitro-AN515-51: /home[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m/home[00m$ cd ..
+]0;vimal@vimal-Nitro-AN515-51: /[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m/[00m$ cd var/www/html/gedit 
+bin/        etc/        lost+found/ proc/       snap/       usr/
+boot/       home/       media/      root/       srv/        var/
+cdrom/      lib/        mnt/        run/        sys/        
+dev/        lib64/      opt/        sbin/       tmp/        
+]0;vimal@vimal-Nitro-AN515-51: /[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m/[00m$ cd var/www/html/gedit [K[K[K[K[K[K[K
+]0;vimal@vimal-Nitro-AN515-51: /var/www/html[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m/var/www/html[00m$ gedit index.nginx-debian.html 
+
+(gedit:6304): Gtk-[1;33mWARNING[0m **: [34m10:59:45.971[0m: Attempting to read the recently used resources file at '/home/vimal/.local/share/recently-used.xbel', but the parser failed: Failed to open file “/home/vimal/.local/share/recently-used.xbel”: Permission denied.
+]0;vimal@vimal-Nitro-AN515-51: /var/www/html[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m/var/www/html[00m$ sudo gedit index.nginx-debian.html 
+
+** (gedit:6337): [1;33mWARNING[0m **: [34m11:04:02.426[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:6337): [1;33mWARNING[0m **: [34m11:04:02.427[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:6337): [1;33mWARNING[0m **: [34m11:04:04.959[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:6337): [1;33mWARNING[0m **: [34m11:04:04.960[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:6337): [1;33mWARNING[0m **: [34m11:04:07.376[0m: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+]0;vimal@vimal-Nitro-AN515-51: /var/www/html[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m/var/www/html[00m$ cat index.nginx-debian.html 
+<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome to nginx!</title>
+<style>
+    body {
+        width: 35em;
+        margin: 0 auto;
+        font-family: Tahoma, Verdana, Arial, sans-serif;
+    }
+</style>
+</head>
+<body>
+<h1>Welcome to nginx!</h1>
+<h1>nginx EDITED SUCCESSFULLY!!</h1>
+
+<p><em>Thank you for using nginx.</em></p>
+</body>
+</html>
+]0;vimal@vimal-Nitro-AN515-51: /var/www/html[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m/var/www/html[00m$ [K]0;vimal@vimal-Nitro-AN515-51: /var/www/html[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m/var/www/html[00m$ [K]0;vimal@vimal-Nitro-AN515-51: /var/www/html[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m/var/www/html[00m$ [K]0;vimal@vimal-Nitro-AN515-51: /var/www/html[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m/var/www/html[00m$ [K]0;vimal@vimal-Nitro-AN515-51: /var/www/html[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m/var/www/html[00m$ [K]0;vimal@vimal-Nitro-AN515-51: /var/www/html[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m/var/www/html[00m$ [K]0;vimal@vimal-Nitro-AN515-51: /var/www/html[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m/var/www/html[00m$ [K]0;vimal@vimal-Nitro-AN515-51: /var/www/html[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m/var/www/html[00m$ [K]0;vimal@vimal-Nitro-AN515-51: /var/www/html[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m/var/www/html[00m$ [K]0;vimal@vimal-Nitro-AN515-51: /var/www/html[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m/var/www/html[00m$ [K]0;vimal@vimal-Nitro-AN515-51: /var/www/html[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m/var/www/html[00m$ [K]0;vimal@vimal-Nitro-AN515-51: /var/www/html[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m/var/www/html[00m$ [K]0;vimal@vimal-Nitro-AN515-51: /var/www/html[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m/var/www/html[00m$ [K]0;vimal@vimal-Nitro-AN515-51: /var/www/html[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m/var/www/html[00m$ [K]0;vimal@vimal-Nitro-AN515-51: /var/www/html[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m/var/www/html[00m$ [K]0;vimal@vimal-Nitro-AN515-51: /var/www/html[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m/var/www/html[00m$ [K]0;vimal@vimal-Nitro-AN515-51: /var/www/html[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m/var/www/html[00m$ [K]0;vimal@vimal-Nitro-AN515-51: /var/www/html[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m/var/www/html[00m$ [K]0;vimal@vimal-Nitro-AN515-51: /var/www/html[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m/var/www/html[00m$ [K]0;vimal@vimal-Nitro-AN515-51: /var/www/html[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m/var/www/html[00m$ [K]0;vimal@vimal-Nitro-AN515-51: /var/www/html[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m/var/www/html[00m$ [K]0;vimal@vimal-Nitro-AN515-51: /var/www/html[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m/var/www/html[00m$ [K]0;vimal@vimal-Nitro-AN515-51: /var/www/html[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m/var/www/html[00m$ [K]0;vimal@vimal-Nitro-AN515-51: /var/www/html[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m/var/www/html[00m$ [K]0;vimal@vimal-Nitro-AN515-51: /var/www/html[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m/var/www/html[00m$ [K]0;vimal@vimal-Nitro-AN515-51: /var/www/html[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m/var/www/html[00m$ [K]0;vimal@vimal-Nitro-AN515-51: /var/www/html[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m/var/www/html[00m$ [K]0;vimal@vimal-Nitro-AN515-51: /var/www/html[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m/var/www/html[00m$ [K]0;vimal@vimal-Nitro-AN515-51: /var/www/html[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m/var/www/html[00m$ [K]0;vimal@vimal-Nitro-AN515-51: /var/www/html[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m/var/www/html[00m$ [K]0;vimal@vimal-Nitro-AN515-51: /var/www/html[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m/var/www/html[00m$ [K]0;vimal@vimal-Nitro-AN515-51: /var/www/html[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m/var/www/html[00m$ [K]0;vimal@vimal-Nitro-AN515-51: /var/www/html[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m/var/www/html[00m$ [K]0;vimal@vimal-Nitro-AN515-51: /var/www/html[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m/var/www/html[00m$ [K]0;vimal@vimal-Nitro-AN515-51: /var/www/html[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m/var/www/html[00m$ [K]0;vimal@vimal-Nitro-AN515-51: /var/www/html[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m/var/www/html[00m$ [K]0;vimal@vimal-Nitro-AN515-51: /var/www/html[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m/var/www/html[00m$ [K]0;vimal@vimal-Nitro-AN515-51: /var/www/html[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m/var/www/html[00m$ [K]0;vimal@vimal-Nitro-AN515-51: /var/www/html[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m/var/www/html[00m$ [K]0;vimal@vimal-Nitro-AN515-51: /var/www/html[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m/var/www/html[00m$ [K]0;vimal@vimal-Nitro-AN515-51: /var/www/html[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m/var/www/html[00m$ [K]0;vimal@vimal-Nitro-AN515-51: /var/www/html[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m/var/www/html[00m$ [K]0;vimal@vimal-Nitro-AN515-51: /var/www/html[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m/var/www/html[00m$ [K]0;vimal@vimal-Nitro-AN515-51: /var/www/html[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m/var/www/html[00m$ [K]0;vimal@vimal-Nitro-AN515-51: /var/www/html[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m/var/www/html[00m$ [K]0;vimal@vimal-Nitro-AN515-51: /var/www/html[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m/var/www/html[00m$ [K]0;vimal@vimal-Nitro-AN515-51: /var/www/html[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m/var/www/html[00m$ [K]0;vimal@vimal-Nitro-AN515-51: /var/www/html[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m/var/www/html[00m$ [K]0;vimal@vimal-Nitro-AN515-51: /var/www/html[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m/var/www/html[00m$ [K]0;vimal@vimal-Nitro-AN515-51: /var/www/html[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m/var/www/html[00m$ [K]0;vimal@vimal-Nitro-AN515-51: /var/www/html[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m/var/www/html[00m$ [K]0;vimal@vimal-Nitro-AN515-51: /var/www/html[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m/var/www/html[00m$ [K]0;vimal@vimal-Nitro-AN515-51: /var/www/html[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m/var/www/html[00m$ [K]0;vimal@vimal-Nitro-AN515-51: /var/www/html[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m/var/www/html[00m$ [K]0;vimal@vimal-Nitro-AN515-51: /var/www/html[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m/var/www/html[00m$ [K]0;vimal@vimal-Nitro-AN515-51: /var/www/html[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m/var/www/html[00m$ [K]0;vimal@vimal-Nitro-AN515-51: /var/www/html[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m/var/www/html[00m$ [K]0;vimal@vimal-Nitro-AN515-51: /var/www/html[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m/var/www/html[00m$ [K]0;vimal@vimal-Nitro-AN515-51: /var/www/html[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m/var/www/html[00m$ [K]0;vimal@vimal-Nitro-AN515-51: /var/www/html[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m/var/www/html[00m$ [K]0;vimal@vimal-Nitro-AN515-51: /var/www/html[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m/var/www/html[00m$ [K]0;vimal@vimal-Nitro-AN515-51: /var/www/html[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m/var/www/html[00m$ [K]0;vimal@vimal-Nitro-AN515-51: /var/www/html[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m/var/www/html[00m$ [K]0;vimal@vimal-Nitro-AN515-51: /var/www/html[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m/var/www/html[00m$ [K]0;vimal@vimal-Nitro-AN515-51: /var/www/html[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m/var/www/html[00m$ [K]0;vimal@vimal-Nitro-AN515-51: /var/www/html[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m/var/www/html[00m$ [K]0;vimal@vimal-Nitro-AN515-51: /var/www/html[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m/var/www/html[00m$ [K]0;vimal@vimal-Nitro-AN515-51: /var/www/html[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m/var/www/html[00m$ [K]0;vimal@vimal-Nitro-AN515-51: /var/www/html[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m/var/www/html[00m$ exit
+exit
+
+Script done on 2019-04-25 11:06:21+0530

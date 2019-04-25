@@ -1,0 +1,48 @@
+Script started on 2019-04-25 10:25:47+0530
+]0;vimal@vimal-Nitro-AN515-51: ~[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m~[00m$ sudo ft[K[Kapt-get install vsftpd
+[sudo] password for vimal: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 2%Reading state information... Done
+vsftpd is already the newest version (3.0.3-9build1).
+0 upgraded, 0 newly installed, 0 to remove and 58 not upgraded.
+]0;vimal@vimal-Nitro-AN515-51: ~[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m~[00m$ ftp localhost
+Connected to localhost.
+220 (vsFTPd 3.0.3)
+Name (localhost:vimal): 
+331 Please specify the password.
+Password:
+230 Login successful.
+Remote system type is UNIX.
+Using binary mode to transfer files.
+ftp> pwd
+257 "/home/vimal" is the current directory
+ftp> ls
+200 PORT command successful. Consider using PASV.
+150 Here comes the directory listing.
+drwxr-xr-x   10 1000     1000         4096 Apr 25 09:49 Desktop
+drwxr-xr-x    2 1000     1000         4096 Apr 02 22:52 Documents
+drwxr-xr-x    2 1000     1000         4096 Apr 08 11:47 Downloads
+drwxr-xr-x    2 1000     1000         4096 Apr 02 22:52 Music
+drwxr-xr-x    2 1000     1000         4096 Apr 02 22:52 Pictures
+drwxr-xr-x    2 1000     1000         4096 Apr 02 22:52 Public
+drwxr-xr-x    2 1000     1000         4096 Apr 02 22:52 Templates
+drwxr-xr-x    2 1000     1000         4096 Apr 02 22:52 Videos
+-rw-r--r--    1 1000     1000         8980 Apr 02 02:34 examples.desktop
+-rw-r--r--    1 1000     1000         2897 Apr 25 10:24 ftp.txt
+-rw-r--r--    1 1000     1000          671 Apr 25 10:25 ftp1.txt
+-rw-r--r--    1 1000     1000            0 Apr 25 10:25 ftp2.txt
+-rw-r--r--    1 1000     1000         1988 Apr 08 09:40 images.jpg
+-rw-r--r--    1 1000     1000            0 Apr 25 10:06 rsync.txt
+drwxr-xr-x    2 1000     1000         4096 Apr 08 10:40 task1
+drwxrwxr-x    2 1000     1000         4096 Apr 07 22:17 task8
+-rw-r--r--    1 1000     1000           86 Apr 02 18:12 todo.sh
+226 Directory send OK.
+ftp> mkdir kktthh
+550 Permission denied.
+ftp> bye
+221 Goodbye.
+]0;vimal@vimal-Nitro-AN515-51: ~[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2019-04-25 10:28:28+0530
