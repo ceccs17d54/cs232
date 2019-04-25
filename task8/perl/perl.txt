@@ -1,0 +1,17 @@
+Script started on 2019-04-25 10:33:17+0530
+]0;vimal@vimal-Nitro-AN515-51: ~[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m~[00m$ sudo apt-get install perl
+[sudo] password for vimal: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 2%Reading state information... Done
+perl is already the newest version (5.26.1-6ubuntu0.3).
+0 upgraded, 0 newly installed, 0 to remove and 58 not upgraded.
+]0;vimal@vimal-Nitro-AN515-51: ~[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m~[00m$ perl perl.pl
+Can't open perl script "perl.pl": No such file or directory
+]0;vimal@vimal-Nitro-AN515-51: ~[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m~[00m$ cd Desktop
+]0;vimal@vimal-Nitro-AN515-51: ~/Desktop[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m~/Desktop[00m$ perl perl.pl
+Hello World
+]0;vimal@vimal-Nitro-AN515-51: ~/Desktop[01;32mvimal@vimal-Nitro-AN515-51[00m:[01;34m~/Desktop[00m$ exit
+exit
+
+Script done on 2019-04-25 10:36:59+0530
