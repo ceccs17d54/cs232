@@ -6,9 +6,9 @@
  - [x] SSH, Rsync, SCP
  - [x] (S)FTP
  - [x] Linux Installation
- - [ ] Setting up HTTP and FTP server
+ - [x] Setting up HTTP and FTP server
  - [x] Package Management
- - [ ] Perl
+ - [x] Perl
  - [ ] LAMP
  - [ ] Kernel Compilation
 
