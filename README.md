@@ -1,7 +1,7 @@
 # CS232
 
  - [x] Linux Commands
- - [ ] CGPA Task
+ - [x] CGPA Task
  - [x] Networking Task
  - [x] SSH, Rsync, SCP
  - [x] (S)FTP
@@ -10,6 +10,6 @@
  - [x] Package Management
  - [x] Perl
  - [ ] LAMP
- - [ ] Kernel Compilation
-
+ - [x] Kernel Compilation
+ - [ ] web server
 
