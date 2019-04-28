@@ -1,0 +1,25 @@
+Script started on 2019-04-28 21:50:45+0530
+vimal@vimal-Nitro-AN515-51: ~/Desktop vimal@vimal-Nitro-AN515-51 ~/Desktop$ rsync -a test cs17d54@14.139.189.217:/home/cs17d54
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d54@14.139.189.217's password: 
+
+vimal@vimal-Nitro-AN515-51: ~/Desktop sftp cs17d54@14.139.189.217
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d54@14.139.189.217's password: 
+Connected to 14.139.189.217.
+sftp> dir
+examples.desktop    task1               task3               task4               
+task5               task6               task8               test                
+sftp> exit
+vimal@vimal-Nitro-AN515-51: ~/Desktop exit
+exit
+
+Script done on 2019-04-28 21:55:02+0530
