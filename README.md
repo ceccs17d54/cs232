@@ -9,7 +9,7 @@
  - [x] Setting up HTTP and FTP server
  - [x] Package Management
  - [x] Perl
- - [ ] LAMP
+ - [x] LAMP
  - [x] Kernel Compilation
  - [ ] web server
 
