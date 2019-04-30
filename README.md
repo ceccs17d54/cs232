@@ -11,5 +11,5 @@
  - [x] Perl
  - [x] LAMP
  - [x] Kernel Compilation
- - [ ] web server
+ - [x] web server
 
