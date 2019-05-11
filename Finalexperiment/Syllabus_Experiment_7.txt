@@ -1,0 +1,19 @@
+Script started on 2019-05-11 22:26:51+0530
+vimal@vimal-Nitro-AN515-51: ~/Desktop$ chmod 777 addnames.sh
+vimal@vimal-Nitro-AN515-51: ~/Desktop$ ./addnames.sh ulist.txt VIMAL
+Successfully added name to the list
+vimal@vimal-Nitro-AN515-51: ~/Desktop$ ./addnames.sh ulist.txt xyz
+Successfully added name to the list
+vimal@vimal-Nitro-AN515-51: ~/Desktop$ ./addnames.sh ulist.txt ABC
+Successfully added name to the list
+vimal@vimal-Nitro-AN515-51: ~/Desktop$ ./addnames.sh ulist.txt VIMAL
+Given name already exists
+vimal@vimal-Nitro-AN515-51: ~/Desktop$ ./addnames.sh ulist.txt
+Incorrect no of parameters
+vimal@vimal-Nitro-AN515-51: ~/Desktop$ exit
+exit
+
+Script done on 2019-05-11 22:31:00+0530
+
+
+
